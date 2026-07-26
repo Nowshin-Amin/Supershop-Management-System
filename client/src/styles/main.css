@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f5f7fb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ==========================
+   Invoice Print Style
+========================== */
+
+@media print{
+
+body{
+background:white;
+}
+
+button{
+display:none !important;
+}
+
+.card{
+border:none !important;
+box-shadow:none !important;
+}
+
+a{
+display:none !important;
+}
+
+}
