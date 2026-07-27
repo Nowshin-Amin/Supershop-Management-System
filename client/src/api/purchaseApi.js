@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/purchases";
+const API = "https://supershop-backend-1sfq.onrender.com/api/purchases";
 
 export const getPurchases = () =>
   axios.get(API);

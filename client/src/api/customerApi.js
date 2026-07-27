@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/customers";
+const API = "https://supershop-backend-1sfq.onrender.com/api/customers";
 
 // Get All
 export const getCustomers = () => axios.get(API);

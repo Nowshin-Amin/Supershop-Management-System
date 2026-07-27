@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/users";
-
+const API = "https://supershop-backend-1sfq.onrender.com/api/users";
 const getToken = () => {
   return localStorage.getItem("token");
 };

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/branches";
+const API = "https://supershop-backend-1sfq.onrender.com/api/branches";
 
 // Get All
 export const getBranches = () =>

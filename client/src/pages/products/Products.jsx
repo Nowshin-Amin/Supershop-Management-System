@@ -115,15 +115,11 @@ function Products() {
                 {product.image ? (
 
                   <img
-                    src={`http://localhost:5000/uploads/${product.image}`}
-                    alt={product.name}
-                    width="60"
-                    height="60"
-                    style={{
-                      objectFit: "cover",
-                      borderRadius: "8px",
-                    }}
-                  />
+  src={`https://supershop-backend-1sfq.onrender.com/uploads/${product.image}`}
+  alt={product.name}
+  width="60"
+  height="60"
+/>
 
                 ) : (
 
