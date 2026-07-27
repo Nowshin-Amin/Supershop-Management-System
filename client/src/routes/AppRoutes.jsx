@@ -12,7 +12,7 @@ import Login from "../pages/auth/Login";
 import Dashboard from "../pages/dashboard/Dashboard";
 
 // Users
-import Users from "../pages/users/Users";
+import users from "../pages/users/Users";
 import AddUser from "../pages/users/AddUser";
 import EditUser from "../pages/users/EditUser";
 
